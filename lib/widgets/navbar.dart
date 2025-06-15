@@ -50,11 +50,15 @@ class Navbar extends StatelessWidget {
                   horizontal: 32,
                   vertical: 16,
                 ),
-                backgroundColor: Colors.black, // button background color
-                foregroundColor: Colors.white, // text/icon color
+                backgroundColor: Colors.transparent, // button background color
+                foregroundColor: Colors.deepOrange, // text/icon color
                 elevation: 0,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12), // rounded corners
+                ),
+                side: const BorderSide(
+                  color: Colors.deepOrange, // Orange border
+                  width: 2,
                 ),
               ),
             ),
@@ -78,7 +82,7 @@ class Navbar extends StatelessWidget {
     return Container(
       width: 110,
       decoration: BoxDecoration(
-        image: DecorationImage(image: AssetImage('assets/images/Logo.png')),
+        image: DecorationImage(image: AssetImage('assets/Images/Logo.png')),
       ),
     );
   }
