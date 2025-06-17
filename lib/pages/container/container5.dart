@@ -2,37 +2,37 @@ import 'package:flutter/material.dart';
 import 'package:flutter_web/widgets/commonContainer.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-class Container3 extends StatefulWidget {
-  const Container3({super.key});
+class Container5 extends StatefulWidget {
+  const Container5({super.key});
 
   @override
-  State<Container3> createState() => _Container3State();
+  State<Container5> createState() => _Container5State();
 }
 
-class _Container3State extends State<Container3> {
+class _Container5State extends State<Container5> {
   @override
   Widget build(BuildContext context) {
     return ScreenTypeLayout(
-      mobile: mobileContainer3(),
-      desktop: desktopContainer3(),
+      mobile: mobileContainer5(),
+      desktop: desktopContainer5(),
     );
   }
 
-  Widget mobileContainer3() {
+  Widget mobileContainer5() {
     return commonContainerMobile(
       'Always Online',
       'Real-time\nsupport\nwith cloud',
       'lorem epsum we are avaible to you all the time',
-      'assets/images/Illustrator1.png',
+      'assets/images/Illustrator3.png',
     );
   }
 
-  Widget desktopContainer3() {
+  Widget desktopContainer5() {
     return commonContainer(
       'Always Online',
       'Real-time\nsupport\nwith cloud',
       'lorem epsum we are avaible to you all the time',
-      'assets/images/Illustrator1.png',
+      'assets/images/Illustrator3.png',
       false,
     );
   }
