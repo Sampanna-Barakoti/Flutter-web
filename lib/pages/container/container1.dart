@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web/utils/colors.dart';
 import 'package:flutter_web/utils/constant.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
@@ -117,7 +118,7 @@ class _Container1State extends State<Container1> {
                         child: ElevatedButton.icon(
                           style: ButtonStyle(
                             backgroundColor: WidgetStateProperty.all(
-                              Colors.deepOrange,
+                              AppColors.primaryColor,
                             ),
                             foregroundColor: WidgetStateProperty.all(
                               Colors.white,

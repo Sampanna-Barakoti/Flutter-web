@@ -8,6 +8,7 @@ Widget commonContainer(String s1, s2, s3, image, bool leftImage) {
     color: Colors.white,
     padding: EdgeInsets.symmetric(horizontal: w! / 10, vertical: 30),
     child: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         leftImage
             ? Expanded(
